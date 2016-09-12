@@ -23,7 +23,7 @@ function setup() {
 
     for(let x = 100; x < 110; x++) {
         for(let y = 100; y < 110; y++) {
-            grid[]
+            grid[x][y].b = 1;
         }
     }
 }
